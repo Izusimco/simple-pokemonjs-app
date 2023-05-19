@@ -1,0 +1,94 @@
+/* Style the modal content */
+.modal-content {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+  }
+  
+  /* Style the modal header */
+  .modal-header {
+    background-color:#dc3545;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Style the modal title */
+  .modal-title {
+    margin: 0;
+  }
+  
+  /* Style the close button */
+  .close {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0.8;
+    padding: 5px;
+    width: 40px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+  }
+  
+  /* Style the modal body */
+  .modal-body {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  /* Style the image element */
+  .modal-body img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Center the image */
+  .modal-body img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Center the height */
+  .modal-body p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  ul .list-group {
+   
+  }
+  
+  li.list-group-item {
+    border: none;
+    text-align: center;
+   
+  }
+  
+  .modal-dialog {
+    max-width: 300px !important;
+    margin: 1.75rem auto !important;
+  }
+  
+  .pokemon-button {
+    margin:5px;
+    width: 120px;
+   
+  }
+  
